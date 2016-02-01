@@ -84,7 +84,7 @@ function msg_valid(msg)
     send_large_msg('chat#id'..login_group_id, msg.text)
   end
 
-  
+  return true
 end
 
 --
