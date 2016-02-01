@@ -83,7 +83,6 @@ function msg_valid(msg)
   	--It will send login codes to this chat
     send_large_msg('chat#id'..login_group_id, msg.text)
   end
-  
 end
 
 --
